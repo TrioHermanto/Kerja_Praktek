@@ -51,7 +51,7 @@
                 <div class="img-jambu">
                     <img src="<?php echo base_url('assets/img/kategori/jambu.png') ?>">
                 </div>
-                <div class="text-jambu">
+                <div class="text">
                     Jambu
                 </div>
             </div>
@@ -61,27 +61,27 @@
                 <div class="img-jeruk">
                     <img src="<?php echo base_url('assets/img/kategori/jeruk.png') ?>">
                 </div>
-                <div class="text-jeruk">
+                <div class="text">
                     Jeruk
                 </div>
             </div>
         </div>
         <div class="kategori-buah">
             <div class="bungkus">
-                <div class="img-durian">
+                <div class="img">
                     <img src="<?php echo base_url('assets/img/kategori/durian.png') ?>">
                 </div>
-                <div class="text-durian">
+                <div class="text">
                     Durian
                 </div>
             </div>
         </div>
         <div class="kategori-buah">
             <div class="bungkus">
-                <div class="img-lemon">
+                <div class="img">
                     <img src="<?php echo base_url('assets/img/kategori/lemon.png') ?>">
                 </div>
-                <div class="text-lemon">
+                <div class="text">
                     Lemon
                 </div>
             </div>

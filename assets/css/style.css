@@ -169,82 +169,76 @@ body{
 .bungkus{
     display: flex;
     align-items: center;
-    background-color: white;
+    background-color: #439A31;
     width: 100px;
     height: 35px;
     border-radius: 20px;
 }
-.img-jambu img{
+.bungkus .img{
+    background-color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.bungkus .img-jambu{
+    background-color: white;
     width: 25px;
     height: 25px;
     border-radius: 50%;
     margin-left: 5px;
     display: flex;
     align-items: center;
-}
-.text-jambu{
-    width: 50px;
-    height: 30px;
-    margin-left: 5px;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 12px;
-    font-weight: bold;
 }
-.img-jeruk img{
+.bungkus .img-jeruk{
+    background-color: white;
     width: 25px;
     height: 25px;
     border-radius: 50%;
     margin-left: 5px;
     display: flex;
     align-items: center;
-}
-.text-jeruk{
-    width: 50px;
-    height: 30px;
-    margin-left: 5px;
-    display: flex;
     justify-content: center;
-    align-items: center;
-    font-size: 12px;
-    font-weight: bold;
 }
-.img-durian img{
-    width: 28px;
-    height: 28px;
-    border-radius: 50%;
-    margin-left: 5px;
-    display: flex;
-    align-items: center;
-}
-.text-durian{
-    width: 50px;
-    height: 30px;
-    margin-left: 5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 12px;
-    font-weight: bold;
-}
-.img-lemon img{
+.bungkus .img img{
     width: 25px;
     height: 25px;
     border-radius: 50%;
-    margin-left: 5px;
     display: flex;
     align-items: center;
 }
-.text-lemon{
+.bungkus .img-jambu img{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+.bungkus .img-jeruk img{
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+}
+.bungkus .text{
     width: 50px;
     height: 30px;
     margin-left: 5px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: bold;
+    color: white;
+}
+.kategori .kategori-buah .bungkus:hover{
+    background-color: #439A31;
+}
+.kategori .kategori-buah .bungkus:active{
+    transform: translateY(1px);
+    background-color: #5fb34f;
+}
+.kategori .kategori-buah .bungkus .text:active{
+    transform: translateY(1px);
+    background-color: #5fb34f;
 }
 /* end kategori */
 
